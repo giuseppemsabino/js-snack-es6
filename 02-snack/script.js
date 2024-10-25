@@ -29,8 +29,8 @@ const footballTeams= [
     console.log(footballTeams)
 
     const resumeTeams= footballTeams.map(team => {
-        return team.name, team.fouls;
+        return {name:team.name ,fouls: team.fouls}
     });
-    console.log()
+    console.log(resumeTeams);
 
     
